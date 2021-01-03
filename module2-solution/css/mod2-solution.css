@@ -31,6 +31,7 @@ div.title {
 	right: 0;
 	border: 1px solid black;
 	text-align: center;
+	width: 100px;
 }
 
 /* Specific background colors for the menu section titles */
