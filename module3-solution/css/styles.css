@@ -1,0 +1,87 @@
+body {
+	font-size: 16px;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: gray;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Brand Name: Food, LLC */
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.5;
+}
+
+#nav-list {
+	margin-top: 0;
+	margin-bottom: 0;
+	border: 3px black solid;
+}
+
+#nav-list a {
+	color: black;
+	font-size: 1.25em;
+	text-align: center;
+	background-color: lightgray;
+	border-bottom: 1px black solid;
+}
+
+#nav-list li:nth-child(3) a {
+	border-bottom: none;
+}
+
+.navbar-header .icon-bar 
+{
+	border: 2px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+	border: 1px solid black;
+	clear: both;
+	margin-top: -40px;
+}
+
+/** END HEADER **/
+
+/** MAIN PAGE **/
+
+#main-content.container {
+	width: 100%;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.container section {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.menu-item-box {
+	color: black;
+	background-color: gray;
+	padding: 10px 30px 10px 30px;
+	margin-bottom: 50px;
+}
+
+/** END MAIN PAGE **/
+
+/************ Extra Small Devices Only ************/
+@media (max-width: 767px) {
+
+/** MAIN PAGE **/
+	.container section {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+/** END MAIN PAGE **/
+}
